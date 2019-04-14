@@ -7,20 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A2A4A792246177B001AB9F5 /* DefaultUserSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A4A782246177B001AB9F5 /* DefaultUserSetting.swift */; };
+		8A2A4A7D22461863001AB9F5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A4A7C22461863001AB9F5 /* HomeVC.swift */; };
+		8A2A4A7F22461C68001AB9F5 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A4A7E22461C68001AB9F5 /* PlayVC.swift */; };
+		8A2A4A8122461C78001AB9F5 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A4A8022461C78001AB9F5 /* SettingVC.swift */; };
+		8A2A4A83224626E5001AB9F5 /* SettingRangeSeekSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A4A82224626E5001AB9F5 /* SettingRangeSeekSlider.swift */; };
+		8A2A4A8522462730001AB9F5 /* SettingRangeSeekSliderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A4A8422462730001AB9F5 /* SettingRangeSeekSliderDelegate.swift */; };
+		8A2A4A87224627C1001AB9F5 /* EngineTapic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A2A4A86224627C1001AB9F5 /* EngineTapic.swift */; };
 		8A9B711D22450E5C00ACE667 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B711C22450E5C00ACE667 /* AppDelegate.swift */; };
-		8A9B711F22450E5C00ACE667 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B711E22450E5C00ACE667 /* ViewController.swift */; };
 		8A9B712222450E5C00ACE667 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B712022450E5C00ACE667 /* Main.storyboard */; };
-		8A9B712522450E5C00ACE667 /* ElementaryMath.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A9B712322450E5C00ACE667 /* ElementaryMath.xcdatamodeld */; };
 		8A9B712722450E5D00ACE667 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B712622450E5D00ACE667 /* Assets.xcassets */; };
 		8A9B712A22450E5D00ACE667 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A9B712822450E5D00ACE667 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A2A4A782246177B001AB9F5 /* DefaultUserSetting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUserSetting.swift; sourceTree = "<group>"; };
+		8A2A4A7C22461863001AB9F5 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		8A2A4A7E22461C68001AB9F5 /* PlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		8A2A4A8022461C78001AB9F5 /* SettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		8A2A4A82224626E5001AB9F5 /* SettingRangeSeekSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRangeSeekSlider.swift; sourceTree = "<group>"; };
+		8A2A4A8422462730001AB9F5 /* SettingRangeSeekSliderDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRangeSeekSliderDelegate.swift; sourceTree = "<group>"; };
+		8A2A4A86224627C1001AB9F5 /* EngineTapic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngineTapic.swift; sourceTree = "<group>"; };
 		8A9B711922450E5C00ACE667 /* ElementaryMath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElementaryMath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A9B711C22450E5C00ACE667 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A9B711E22450E5C00ACE667 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A9B712122450E5C00ACE667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8A9B712422450E5C00ACE667 /* ElementaryMath.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ElementaryMath.xcdatamodel; sourceTree = "<group>"; };
 		8A9B712622450E5D00ACE667 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A9B712922450E5D00ACE667 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A9B712B22450E5D00ACE667 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -37,6 +47,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A2A4A72224612BC001AB9F5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8A2A4A782246177B001AB9F5 /* DefaultUserSetting.swift */,
+				8A2A4A7C22461863001AB9F5 /* HomeVC.swift */,
+				8A2A4A8022461C78001AB9F5 /* SettingVC.swift */,
+				8A2A4A7E22461C68001AB9F5 /* PlayVC.swift */,
+				8A2A4A82224626E5001AB9F5 /* SettingRangeSeekSlider.swift */,
+				8A2A4A8422462730001AB9F5 /* SettingRangeSeekSliderDelegate.swift */,
+				8A2A4A86224627C1001AB9F5 /* EngineTapic.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		8A2A4A73224612C4001AB9F5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8A9B711C22450E5C00ACE667 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		8A2A4A74224612D2001AB9F5 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8A9B712022450E5C00ACE667 /* Main.storyboard */,
+				8A9B712822450E5D00ACE667 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
 		8A9B711022450E5C00ACE667 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +97,11 @@
 		8A9B711B22450E5C00ACE667 /* ElementaryMath */ = {
 			isa = PBXGroup;
 			children = (
-				8A9B711C22450E5C00ACE667 /* AppDelegate.swift */,
-				8A9B711E22450E5C00ACE667 /* ViewController.swift */,
-				8A9B712022450E5C00ACE667 /* Main.storyboard */,
+				8A2A4A73224612C4001AB9F5 /* App */,
+				8A2A4A72224612BC001AB9F5 /* Classes */,
+				8A2A4A74224612D2001AB9F5 /* Storyboard */,
 				8A9B712622450E5D00ACE667 /* Assets.xcassets */,
-				8A9B712822450E5D00ACE667 /* LaunchScreen.storyboard */,
 				8A9B712B22450E5D00ACE667 /* Info.plist */,
-				8A9B712322450E5C00ACE667 /* ElementaryMath.xcdatamodeld */,
 			);
 			path = ElementaryMath;
 			sourceTree = "<group>";
@@ -138,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A9B711F22450E5C00ACE667 /* ViewController.swift in Sources */,
-				8A9B712522450E5C00ACE667 /* ElementaryMath.xcdatamodeld in Sources */,
+				8A2A4A87224627C1001AB9F5 /* EngineTapic.swift in Sources */,
+				8A2A4A8522462730001AB9F5 /* SettingRangeSeekSliderDelegate.swift in Sources */,
+				8A2A4A792246177B001AB9F5 /* DefaultUserSetting.swift in Sources */,
+				8A2A4A8122461C78001AB9F5 /* SettingVC.swift in Sources */,
+				8A2A4A7D22461863001AB9F5 /* HomeVC.swift in Sources */,
+				8A2A4A7F22461C68001AB9F5 /* PlayVC.swift in Sources */,
 				8A9B711D22450E5C00ACE667 /* AppDelegate.swift in Sources */,
+				8A2A4A83224626E5001AB9F5 /* SettingRangeSeekSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,14 +330,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ElementaryMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taijased.ElementaryMath;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Lavrov.MathGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,14 +350,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ElementaryMath/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.taijased.ElementaryMath;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.Lavrov.MathGo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -338,19 +388,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8A9B712322450E5C00ACE667 /* ElementaryMath.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8A9B712422450E5C00ACE667 /* ElementaryMath.xcdatamodel */,
-			);
-			currentVersion = 8A9B712422450E5C00ACE667 /* ElementaryMath.xcdatamodel */;
-			path = ElementaryMath.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 8A9B711122450E5C00ACE667 /* Project object */;
 }
